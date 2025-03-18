@@ -1,0 +1,212 @@
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+li {
+  background-color: #eeecec;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+container > div {
+  flex: 1;
+}
+.separator {
+  width: 2px;
+  background-color: #000000;
+  box-shadow: 1px 1px 3px 1px #646567;
+}
+.left img {
+  height: 100px;
+}
+.right {
+  height: 100px;
+}
+.flag {
+  height: 100%;
+  width: 150px;
+  margin: auto;
+  position: relative;
+}
+.flag > div {
+  position: absolute;
+}
+.container p {
+  margin-top: 10px;
+}
+
+/* Indian flag */
+.indian {
+  background-color: #f89a3a;
+}
+.indian .section1 {
+  background-color: white;
+  height: 33%;
+  width: 100%;
+  top: 33%;
+}
+.indian .section2 {
+  background-color: #168b44;
+  height: 34%;
+  width: 100%;
+  top: 66%;
+}
+.indian .center {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url(./assets/images/india.png);
+  background-position: center;
+  border: 3px solid blue;
+  top: 36%;
+  left: 42%;
+}
+
+/* australian flag */
+.australia {
+  background-color: #010066;
+}
+.australia .division {
+  width: 50%;
+  height: 55%;
+  overflow: hidden;
+  z-index: 10;
+}
+.australia .section1 {
+  background-color: #e20027;
+  height: 23%;
+  width: 100%;
+  border: solid white;
+  border-width: 3px 0;
+  position: absolute;
+  top: 40%;
+  z-index: 15;
+}
+.australia .section2 {
+  background-color: #e20027;
+  height: 100%;
+  width: 14%;
+  position: absolute;
+  left: 44%;
+  z-index: 14;
+  border: solid white;
+  border-width: 0 3px;
+}
+.australia .diagonal {
+  width: 150%;
+  height: 8%;
+  background-color: #e20027;
+  transform: rotate(36deg);
+  position: absolute;
+  top: 51%;
+  left: -15px;
+  z-index: 13;
+  border: solid white;
+  border-width: 3px 0;
+}
+.australia .reversed {
+  transform: rotate(325deg);
+  top: 44%;
+  z-index: 12;
+}
+.australia img {
+  position: absolute;
+  filter: invert(1);
+}
+.size-xs {
+  top: 50%;
+  right: 15%;
+  width: 12px;
+}
+.size-s {
+  top: 35%;
+  right: 32%;
+  width: 15px;
+}
+.size-m {
+  top: 6%;
+  right: 17%;
+  width: 16px;
+}
+.size-l {
+  top: 27%;
+  right: 5%;
+  width: 17px;
+}
+.size-xl {
+  bottom: 8%;
+  right: 20%;
+  width: 18px;
+}
+.size-xxl {
+  top: 62%;
+  left: 15%;
+  width: 30px;
+}
+
+/* Sweden flag */
+.sweden {
+  background-color: #0172bb;
+}
+.sweden > div {
+  background-color: #ffd612;
+}
+.sweden .section1 {
+  height: 20px;
+  width: 100%;
+  top: 40px;
+}
+.sweden .section2 {
+  height: 100%;
+  width: 20px;
+  left: 40%;
+}
+
+/* Azerbaijan flag */
+.azerbaijan {
+  background-color: #0098c2;
+}
+.azerbaijan .section1 {
+  background-color: #e20027;
+  height: 33%;
+  width: 100%;
+  top: 33%;
+}
+.azerbaijan .section2 {
+  background-color: #00af65;
+  height: 34%;
+  width: 100%;
+  top: 66%;
+}
+.azerbaijan .center {
+  width: 100%;
+  overflow: hidden;
+  top: 18%;
+}
+.azerbaijan .center p {
+  position: relative;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.azerbaijan .center p > span {
+  font-size: 18px;
+  position: absolute;
+  top: 8px;
+}
